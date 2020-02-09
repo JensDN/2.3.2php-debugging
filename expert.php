@@ -65,7 +65,7 @@ echo $login = login('john@example.be', 'pocahontas');
 echo $login = login('john@example', 'dfgidfgdfg');
 //no access
 echo $login = login('wrong@example', 'wrong');
-new_exercise(9); // https:
+new_exercise(9); // https: is on position 0 which isn't true or false
 function isLinkValid(string $link) {
     $unacceptables = array('https:','.doc','.pdf', '.jpg', '.jpeg', '.gif', '.bmp', '.png');
 
